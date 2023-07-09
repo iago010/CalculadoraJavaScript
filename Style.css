@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+h2{
+    text-align: center;
+    height: 50px; /*altura do nome para os botoes*/
+    font-size: 35px;
+}
+
+*{ /*faz com q o fundo seja aplicado por toda a tela*/
+    margin: 0; 
+    padding: 0;
+}
+
+.fundo{  /*puza a div com classe = fundo*/
+    background-color: rgb(3, 3, 98);
+    height: 100vh;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.botao{
+    background-color: gray;
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0.5px;
+}
+
+#resultado{
+    width: 204px;
+    background-color: white;
+    margin: 3px;
+    height: 30px;
+    font-size: 22px;
+    color: black;
+    text-align: right;
+}
+
+.botao_igual{
+    background-color: gray;
+    width: 50px;
+    height: 87px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0.5px;
+}
+
+.botao_zero{
+    background-color: gray;
+    width: 102px;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0.5px;
+}
+
+#op{
+    position: absolute;
+    z-index: 999;
+    margin: 15px 10px;
+    font-weight: bold;
+    color: black;
+}

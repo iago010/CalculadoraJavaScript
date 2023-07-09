@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculadora JQuery</title>
+        <link rel="stylesheet" type="text/css" href="Style.css"> 
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" 
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" 
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="CalcJQuery.js"></script>
+    </head>
+
+    <body>
+       <div class="fundo">
+        <h1>Bem-vindo</h1>
+        <div class="calculadora">
+            <h2>Calculadora</h2>
+            <form class="form" method="">
+                <label id="op"></label>
+                <input type="text" id="resultado" value="">
+            </form>
+            <table>
+                <tr>
+                    <td><input type="button" name="CE" value="CE" class="botao">
+                    <td><input type="button" name="c" value="←" class="botao">
+                    <td><input type="button" name="div" value="/" class="botao">
+                    <td><input type="button" name="mult" value="*" class="botao">
+                </tr>
+                <tr>
+                    <td><input type="button" name="bt" value="7" class="botao">
+                    <td><input type="button" name="bt" value="8" class="botao">
+                    <td><input type="button" name="bt" value="9" class="botao">
+                    <td><input type="button" name="sub" value="-" class="botao">
+                </tr>
+                <tr>
+                    <td><input type="button" name="bt" value="4" class="botao">
+                    <td><input type="button" name="bt" value="5" class="botao">
+                    <td><input type="button" name="bt" value="6" class="botao">
+                    <td><input type="button" name="soma" value="+" class="botao">
+                </tr>
+                <tr>
+                    <td><input type="button" name="bt" value="1" class="botao">
+                    <td><input type="button" name="bt" value="2" class="botao">
+                    <td><input type="button" name="bt" value="3" class="botao">
+                    <td rowspan="2"><input type="button" name="igual" value="=" class="botao_igual">
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" name="bt" value="0" class="botao_zero">
+                    <td><input type="button" name="ponto" value="." class="botao">    
+                </tr>
+            </table>
+        </div>
+       </div>  
+
+
+    </body>
+
+
+</html>
